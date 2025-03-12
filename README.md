@@ -1,1 +1,2 @@
 # Facial-Recognition-Attendance
+A Facial Recognition Attendance System is an advanced biometric technology that automates attendance tracking by identifying individuals through their facial features. It eliminates the need for traditional methods like manual roll calls, ID cards, or fingerprint scanning, making the process faster, more secure, and efficient.

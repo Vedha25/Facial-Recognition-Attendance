@@ -14,13 +14,12 @@ rohan_encoding = face_recognition.face_encodings(rohan_image)[0]
 
 known_face_encodings = [vedhas_encoding, rohan_encoding]
 known_face_names = ["Vedha", "Rohan"]
-#list of expected students
+
 students = known_face_names.copy()
 
 face_locations = []
 face_encodings = []
 
-#get current date and time
 now = datetime.now()
 current_date = now.strftime("%y-%m-%d")
 
@@ -44,8 +43,7 @@ while True:
 
         if matches[best_match_index]:
             name = known_face_names[best_match_index]
-
-            #Add the text if a person is present
+            
             if name in known_face_names:
                 font = cv2.FONT_HERSHEY_SIMPLEX
                 bottom_left_corner_of_text = (10, 100)
